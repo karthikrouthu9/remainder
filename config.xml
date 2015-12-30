@@ -38,11 +38,7 @@
       	<gap:platform name="android" />
       	<gap:platform name="winphone" />
       
-    <splash src="res/screen/android/homecare_logo.png" density="port-hdpi"/>
-    <splash src="res/screen/android/homecare_logo.png" density="port-ldpi"/>
-    <splash src="res/screen/android/homecare_logo.png" density="port-mdpi"/>
-    <splash src="res/screen/android/homecare_logo.png" density="port-xhdpi"/>
- 
+
   <gap:plugin name="org.apache.cordova.core.camera" />
 
 <gap:plugin name="org.apache.cordova.core.geolocation" />
@@ -52,12 +48,8 @@
 <gap:plugin name="org.apache.cordova.device-orientation" />
 <gap:plugin name="org.apache.cordova.network-information" />
 <gap:plugin name="org.apache.cordova.dialogs" />
-
-<gap:plugin name="hu.dpal.phonegap.plugins.uniquedeviceid"/>
-<gap:plugin name="cordova.plugins.diagnostic" source="npm" />
 <gap:plugin name="com.phonegap.plugin.statusbar" />
 <plugin name="org.apache.cordova.statusbar" spec="0.1.4" source="pgb" />
-<gap:plugin name="cordova.plugins.diagnostic" source="npm" />
 
 
 
