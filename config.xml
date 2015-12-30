@@ -18,14 +18,7 @@
     <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
     <content src="index.html" />
 
-    <preference name="loglevel" value="DEBUG" />
-   
-      <preference name="splashscreen" value="resourceName" />
-      <preference name="backgroundColor" value="0xFFF" />
-      <preference name="loadUrlTimeoutValue" value="20000" />
-      <preference name="InAppBrowserStorageEnabled" value="true" />
-      <preference name="disallowOverscroll" value="true" />
-    
+   <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="stay-in-webview" value="true" />
 	<preference name="phonegap-version" value="3.0.0" />
@@ -59,8 +52,12 @@
 <gap:plugin name="org.apache.cordova.device-orientation" />
 <gap:plugin name="org.apache.cordova.network-information" />
 <gap:plugin name="org.apache.cordova.dialogs" />
+
+<gap:plugin name="hu.dpal.phonegap.plugins.uniquedeviceid"/>
+<gap:plugin name="cordova.plugins.diagnostic" source="npm" />
 <gap:plugin name="com.phonegap.plugin.statusbar" />
 <plugin name="org.apache.cordova.statusbar" spec="0.1.4" source="pgb" />
+<gap:plugin name="cordova.plugins.diagnostic" source="npm" />
 
 
 
@@ -77,8 +74,6 @@
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>
 
-    
     <!-- Deprecated plugins element. Remove in 3.0 -->
-    <plugins>
-    </plugins>
+   
 </widget>
